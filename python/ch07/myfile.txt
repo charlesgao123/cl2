@@ -1,0 +1,2 @@
+Hello text file00
+goodbye text file00

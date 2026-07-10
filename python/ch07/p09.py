@@ -23,7 +23,15 @@
 # open('myfile.txt').close()
 # print('done')
 
-myfile = open('myfile.txt')
+
+# import os
+# currentdir = os.path.dirname(__file__) + '\\'
+# print(currentdir)
+
+# currentdir = "E:\\sourcecode\\cl2\\python\\ch07\\"
+currentdir = "E:/sourcecode/cl2/python/ch07/"
+# currentdir = ''
+myfile = open(currentdir + 'myfile.txt')
 for line in myfile:
     print(line, end='')
 myfile.close()
